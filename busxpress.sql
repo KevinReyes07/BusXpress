@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0
+-- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-07-2023 a las 23:56:46
--- Versión del servidor: 10.1.31-MariaDB
--- Versión de PHP: 7.2.4
+-- Tiempo de generación: 16-07-2023 a las 20:06:04
+-- Versión del servidor: 10.1.34-MariaDB
+-- Versión de PHP: 5.6.37
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,8 +21,23 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `busxpress`
 --
-CREATE DATABASE IF NOT EXISTS `busxpress` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
-USE `busxpress`;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `buses`
+--
+
+CREATE TABLE `buses` (
+  `ID_Bus` int(11) NOT NULL,
+  `ID_Driver` int(25) NOT NULL,
+  `Terminal_From` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
+  `Terminal_To` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
+  `ID_Status` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
+  `Date` date NOT NULL,
+  `Departure_D` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
+  `Return_D` varchar(20) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
 
@@ -152,6 +167,12 @@ INSERT INTO `u_role` (`ID_Role`, `Name`, `Description`, `ID_User`, `Date`) VALUE
 --
 
 --
+-- Indices de la tabla `buses`
+--
+ALTER TABLE `buses`
+  ADD PRIMARY KEY (`ID_Bus`,`ID_Status`);
+
+--
 -- Indices de la tabla `g_terminal`
 --
 ALTER TABLE `g_terminal`
@@ -184,6 +205,12 @@ ALTER TABLE `u_role`
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
+
+--
+-- AUTO_INCREMENT de la tabla `buses`
+--
+ALTER TABLE `buses`
+  MODIFY `ID_Bus` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `g_terminal`
