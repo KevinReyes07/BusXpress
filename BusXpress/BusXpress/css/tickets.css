@@ -1,0 +1,15 @@
+#nametickets {
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: black;
+    height: 38px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.tickets-title {
+    color: white;
+    text-align: left;
+    position: relative;
+    top: -14px;
+    left: -3px;
+}

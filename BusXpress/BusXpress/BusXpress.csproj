@@ -1,0 +1,565 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FAFE415D-7CC9-4E5E-ADD1-FF7352605650}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusXpress</RootNamespace>
+    <AssemblyName>BusXpress</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44359</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SendGrid, Version=9.28.1.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\SendGrid.9.28.1\lib\net452\SendGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="StarkbankEcdsa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b2e6337a5d77bfbc, processorArchitecture=MSIL">
+      <HintPath>..\packages\starkbank-ecdsa.1.3.3\lib\net452\StarkbankEcdsa.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Twilio, Version=6.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Twilio.6.9.0\lib\net451\Twilio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AboutUsWelcome.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="assets\css\animate.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\fontawesome-all.min.css" />
+    <Content Include="assets\css\gijgo.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\nice-select.css" />
+    <Content Include="assets\css\owl.carousel.min.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\css\slick.css" />
+    <Content Include="assets\css\slicknav.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\terms_and_conditions.css" />
+    <Content Include="assets\css\themify-icons.css" />
+    <Content Include="assets\fonts\ElegantIcons.svg" />
+    <Content Include="assets\fonts\fa-brands-400.svg" />
+    <Content Include="assets\fonts\fa-regular-400.svg" />
+    <Content Include="assets\fonts\fa-solid-900.svg" />
+    <Content Include="assets\fonts\gijgo-material.svg" />
+    <Content Include="assets\fonts\themify.svg" />
+    <Content Include="assets\img\about\about_lft.png" />
+    <Content Include="assets\img\about\about_right.png" />
+    <Content Include="assets\img\about\pet_care.png" />
+    <Content Include="assets\img\adapt_icon\1.png" />
+    <Content Include="assets\img\adapt_icon\1.svg" />
+    <Content Include="assets\img\adapt_icon\2.png" />
+    <Content Include="assets\img\adapt_icon\3.png" />
+    <Content Include="assets\img\banner\banner.png" />
+    <Content Include="assets\img\banner\bradcam.png" />
+    <Content Include="assets\img\banner\contact_bg.png" />
+    <Content Include="assets\img\banner\dog.png" />
+    <Content Include="assets\img\banner\img.png" />
+    <Content Include="assets\img\blog\author.png" />
+    <Content Include="assets\img\blog\blog_1.png" />
+    <Content Include="assets\img\blog\blog_2.png" />
+    <Content Include="assets\img\blog\blog_3.png" />
+    <Content Include="assets\img\blog\blog_4.png" />
+    <Content Include="assets\img\blog\learn_about_bg.png" />
+    <Content Include="assets\img\blog\single_blog_1.png" />
+    <Content Include="assets\img\blog\single_blog_2.png" />
+    <Content Include="assets\img\blog\single_blog_3.png" />
+    <Content Include="assets\img\blog\single_blog_4.png" />
+    <Content Include="assets\img\blog\single_blog_5.png" />
+    <Content Include="assets\img\blog\slide_thumb_1.png" />
+    <Content Include="assets\img\Busdriver.jpg" />
+    <Content Include="assets\img\comment\comment_1.png" />
+    <Content Include="assets\img\comment\comment_2.png" />
+    <Content Include="assets\img\comment\comment_3.png" />
+    <Content Include="assets\img\Costa Rica.png" />
+    <Content Include="assets\img\customer\BusAbout.jpg" />
+    <Content Include="assets\img\customer\customar1.png" />
+    <Content Include="assets\img\customer\customar2.png" />
+    <Content Include="assets\img\customer\customar_bg.png" />
+    <Content Include="assets\img\customer\cutomer.jpg" />
+    <Content Include="assets\img\dining\Bus-company.jpg" />
+    <Content Include="assets\img\dining\Busglass.png" />
+    <Content Include="assets\img\dining\busway.jpg" />
+    <Content Include="assets\img\dining\central-america-coloring-page.jpg" />
+    <Content Include="assets\img\dining\dining-img2.jpg" />
+    <Content Include="assets\img\dining\dining-img2.png" />
+    <Content Include="assets\img\dining\whitebus.jpg" />
+    <Content Include="assets\img\El Salvador.jpeg" />
+    <Content Include="assets\img\elements\a.jpg" />
+    <Content Include="assets\img\elements\a2.jpg" />
+    <Content Include="assets\img\elements\d.jpg" />
+    <Content Include="assets\img\elements\disabled-check.png" />
+    <Content Include="assets\img\elements\disabled-radio.png" />
+    <Content Include="assets\img\elements\f1.jpg" />
+    <Content Include="assets\img\elements\f2.jpg" />
+    <Content Include="assets\img\elements\f3.jpg" />
+    <Content Include="assets\img\elements\f4.jpg" />
+    <Content Include="assets\img\elements\f5.jpg" />
+    <Content Include="assets\img\elements\f6.jpg" />
+    <Content Include="assets\img\elements\f7.jpg" />
+    <Content Include="assets\img\elements\f8.jpg" />
+    <Content Include="assets\img\elements\g1.jpg" />
+    <Content Include="assets\img\elements\g2.jpg" />
+    <Content Include="assets\img\elements\g3.jpg" />
+    <Content Include="assets\img\elements\g4.jpg" />
+    <Content Include="assets\img\elements\g5.jpg" />
+    <Content Include="assets\img\elements\g6.jpg" />
+    <Content Include="assets\img\elements\g7.jpg" />
+    <Content Include="assets\img\elements\g8.jpg" />
+    <Content Include="assets\img\elements\primary-check.png" />
+    <Content Include="assets\img\elements\primary-radio.png" />
+    <Content Include="assets\img\elements\success-check.png" />
+    <Content Include="assets\img\elements\success-radio.png" />
+    <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\img\gallery\1.png" />
+    <Content Include="assets\img\gallery\2.png" />
+    <Content Include="assets\img\gallery\3.png" />
+    <Content Include="assets\img\gallery\gallery1.jpg" />
+    <Content Include="assets\img\gallery\gallery2.jpg" />
+    <Content Include="assets\img\gallery\gallery3.jpg" />
+    <Content Include="assets\img\gallery\video.png" />
+    <Content Include="assets\img\Guatemala.jpg" />
+    <Content Include="assets\img\hero\aboutpage_hero.jpg" />
+    <Content Include="assets\img\hero\bus1.jpg" />
+    <Content Include="assets\img\hero\contact_hero.jpg" />
+    <Content Include="assets\img\hero\footer_logo.png" />
+    <Content Include="assets\img\hero\h1_hero.jpg" />
+    <Content Include="assets\img\hero\roomspage_hero.jpg" />
+    <Content Include="assets\img\hero\servicespage_hero.jpg" />
+    <Content Include="assets\img\Honduras.jpg" />
+    <Content Include="assets\img\logo\date-picker-icon.png" />
+    <Content Include="assets\img\logo\form-iocn.jpg" />
+    <Content Include="assets\img\logo\logo.png" />
+    <Content Include="assets\img\logo\logo2_footer.png" />
+    <Content Include="assets\img\logo\logobus.png" />
+    <Content Include="assets\img\logo\select-items-icon.jpg" />
+    <Content Include="assets\img\logo\testimonial.png" />
+    <Content Include="assets\img\Nicaragua.jpg" />
+    <Content Include="assets\img\offers\1.png" />
+    <Content Include="assets\img\offers\2.png" />
+    <Content Include="assets\img\offers\3.png" />
+    <Content Include="assets\img\our_blog\blog-comments-icon.jpg" />
+    <Content Include="assets\img\our_blog\blog-img1.jpg" />
+    <Content Include="assets\img\our_blog\blog-img2.jpg" />
+    <Content Include="assets\img\our_blog\blog-img3.jpg" />
+    <Content Include="assets\img\Panama.png" />
+    <Content Include="assets\img\post\next.png" />
+    <Content Include="assets\img\post\post_1.png" />
+    <Content Include="assets\img\post\post_10.png" />
+    <Content Include="assets\img\post\post_2.png" />
+    <Content Include="assets\img\post\post_3.png" />
+    <Content Include="assets\img\post\post_4.png" />
+    <Content Include="assets\img\post\post_5.png" />
+    <Content Include="assets\img\post\post_6.png" />
+    <Content Include="assets\img\post\post_7.png" />
+    <Content Include="assets\img\post\post_8.png" />
+    <Content Include="assets\img\post\post_9.png" />
+    <Content Include="assets\img\post\preview.png" />
+    <Content Include="assets\img\prising\1.png" />
+    <Content Include="assets\img\prising\10.png" />
+    <Content Include="assets\img\prising\2.png" />
+    <Content Include="assets\img\prising\3.png" />
+    <Content Include="assets\img\prising\4.png" />
+    <Content Include="assets\img\prising\5.png" />
+    <Content Include="assets\img\prising\6.png" />
+    <Content Include="assets\img\prising\7.png" />
+    <Content Include="assets\img\prising\8.png" />
+    <Content Include="assets\img\prising\9.png" />
+    <Content Include="assets\img\service\1.png" />
+    <Content Include="assets\img\service\2.png" />
+    <Content Include="assets\img\service\3.png" />
+    <Content Include="assets\img\service\service_icon_1.png" />
+    <Content Include="assets\img\service\service_icon_2.png" />
+    <Content Include="assets\img\service\service_icon_3.png" />
+    <Content Include="assets\img\service\service_icon_bg_1.png" />
+    <Content Include="assets\img\team\1.png" />
+    <Content Include="assets\img\team\2.png" />
+    <Content Include="assets\img\team\3.png" />
+    <Content Include="assets\img\testmonial\1.png" />
+    <Content Include="assets\img\Turismoo.jpg" />
+    <Content Include="assets\js\animated.headline.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\contact.js" />
+    <Content Include="assets\js\gijgo.min.js" />
+    <Content Include="assets\js\jquery.ajaxchimp.min.js" />
+    <Content Include="assets\js\jquery.form.js" />
+    <Content Include="assets\js\jquery.magnific-popup.js" />
+    <Content Include="assets\js\jquery.nice-select.min.js" />
+    <Content Include="assets\js\jquery.paroller.min.js" />
+    <Content Include="assets\js\jquery.scrollUp.min.js" />
+    <Content Include="assets\js\jquery.slicknav.min.js" />
+    <Content Include="assets\js\jquery.sticky.js" />
+    <Content Include="assets\js\jquery.validate.min.js" />
+    <Content Include="assets\js\mail-script.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\one-page-nav-min.js" />
+    <Content Include="assets\js\owl.carousel.min.js" />
+    <Content Include="assets\js\plugins.js" />
+    <Content Include="assets\js\popper.min.js" />
+    <Content Include="assets\js\slick.min.js" />
+    <Content Include="assets\js\slicknav.css" />
+    <Content Include="assets\js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="assets\js\vendor\modernizr-3.5.0.min.js" />
+    <Content Include="assets\js\wow.min.js" />
+    <Content Include="assets\vendor\bootstrap-icons.css" />
+    <Content Include="assets\vendor\bootstrap.min.css" />
+    <Content Include="assets\vendor\boxicons.min.css" />
+    <Content Include="assets\vendor\glightbox.min.css" />
+    <Content Include="assets\vendor\swiper-bundle.min.css" />
+    <Content Include="css\aboutus.css" />
+    <Content Include="css\admin.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap.payment.css" />
+    <Content Include="css\bus_seat.css" />
+    <Content Include="css\buytickets.css" />
+    <Content Include="css\delete-tickets.css" />
+    <Content Include="css\driver.css" />
+    <Content Include="css\edit_tickets.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\font-awesome.payment.css" />
+    <Content Include="css\mainpage.css" />
+    <Content Include="css\main_styles.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.default.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\terms_and_conditions.css" />
+    <Content Include="css\terms_and_conditions_signup.css" />
+    <Content Include="css\theme-rtl.css" />
+    <Content Include="css\theme-rtl.min.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="css\theme.min.css" />
+    <Content Include="css\tickets.css" />
+    <Content Include="css\usersadmin.css" />
+    <Content Include="css\usersdriver.css" />
+    <Content Include="design\font.css" />
+    <Content Include="Driver.aspx" />
+    <Content Include="images\1.png" />
+    <Content Include="images\2.png" />
+    <Content Include="images\3.png" />
+    <Content Include="images\4.png" />
+    <Content Include="images\5.png" />
+    <Content Include="images\6.png" />
+    <Content Include="images\Bus.png" />
+    <Content Include="images\busdriver.jpg" />
+    <Content Include="images\busito 2.png" />
+    <Content Include="images\busito.png" />
+    <Content Include="images\busito1.png" />
+    <Content Include="images\busmanager.jpg" />
+    <Content Include="images\busroutes.jpg" />
+    <Content Include="images\Costa_Rica.jpg" />
+    <Content Include="images\El_Salvador.png" />
+    <Content Include="images\Guatemala.jpg" />
+    <Content Include="images\Honduras.jpg" />
+    <Content Include="images\image.jpg" />
+    <Content Include="images\image1.jpg" />
+    <Content Include="images\image2.jpg" />
+    <Content Include="images\image3.jpg" />
+    <Content Include="images\image4.jpg" />
+    <Content Include="images\image5.jpg" />
+    <Content Include="images\image6.jpg" />
+    <Content Include="images\img\Busxpress1.png" />
+    <Content Include="images\img\descuento.png" />
+    <Content Include="images\img\hero-section-1.png" />
+    <Content Include="images\img\logo.png" />
+    <Content Include="images\img\logo1.png" />
+    <Content Include="images\img\reloj.png" />
+    <Content Include="images\img\seccion2.png" />
+    <Content Include="images\intro_1.jpg" />
+    <Content Include="images\intro_2.jpg" />
+    <Content Include="images\intro_3.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\Nicaragua.jpg" />
+    <Content Include="images\Panama.jpg" />
+    <Content Include="jquery\jquery.min.js" />
+    <Content Include="js\admin.js" />
+    <Content Include="js\bootstrap-navbar.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\driver.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\mainpage.js" />
+    <Content Include="js\main_terms.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\popper.js" />
+    <Content Include="js\terms_and_conditions.js" />
+    <Content Include="js\terms_and_conditions_signup.js" />
+    <Content Include="js\theme.js" />
+    <Content Include="js\theme.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="SweetAlert\sweetalert2.all.min.js" />
+    <Content Include="SweetAlert\sweetalert2.js" />
+    <Content Include="Terms_and_conditions.aspx" />
+    <Content Include="TravelOptions.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Welcome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUsWelcome.aspx.cs">
+      <DependentUpon>AboutUsWelcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUsWelcome.aspx.designer.cs">
+      <DependentUpon>AboutUsWelcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add.cs" />
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="conexiones.cs" />
+    <Compile Include="datos.cs" />
+    <Compile Include="datos1.cs" />
+    <Compile Include="Driver.aspx.cs">
+      <DependentUpon>Driver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Driver.aspx.designer.cs">
+      <DependentUpon>Driver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terms_and_conditions.aspx.cs">
+      <DependentUpon>Terms_and_conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms_and_conditions.aspx.designer.cs">
+      <DependentUpon>Terms_and_conditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TravelOptions.aspx.cs">
+      <DependentUpon>TravelOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TravelOptions.aspx.designer.cs">
+      <DependentUpon>TravelOptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\material-design.woff2" />
+    <Content Include="assets\css\main.map" />
+    <Content Include="assets\fonts\ElegantIcons.eot" />
+    <Content Include="assets\fonts\ElegantIcons.ttf" />
+    <Content Include="assets\fonts\ElegantIcons.woff" />
+    <Content Include="assets\fonts\fa-brands-400.eot" />
+    <Content Include="assets\fonts\fa-brands-400.ttf" />
+    <Content Include="assets\fonts\fa-brands-400.woff" />
+    <Content Include="assets\fonts\fa-brands-400.woff2" />
+    <Content Include="assets\fonts\fa-regular-400.eot" />
+    <Content Include="assets\fonts\fa-regular-400.ttf" />
+    <Content Include="assets\fonts\fa-regular-400.woff" />
+    <Content Include="assets\fonts\fa-regular-400.woff2" />
+    <Content Include="assets\fonts\fa-solid-900.eot" />
+    <Content Include="assets\fonts\fa-solid-900.ttf" />
+    <Content Include="assets\fonts\fa-solid-900.woff" />
+    <Content Include="assets\fonts\fa-solid-900.woff2" />
+    <Content Include="assets\fonts\gijgo-material.eot" />
+    <Content Include="assets\fonts\gijgo-material.ttf" />
+    <Content Include="assets\fonts\gijgo-material.woff" />
+    <Content Include="assets\fonts\themify.eot" />
+    <Content Include="assets\fonts\themify.ttf" />
+    <Content Include="assets\fonts\themify.woff" />
+    <Content Include="assets\scss\main.scss" />
+    <Content Include="assets\scss\services.scss" />
+    <Content Include="assets\scss\_blog.scss" />
+    <Content Include="assets\scss\_blog_page.scss" />
+    <Content Include="assets\scss\_booking.scss" />
+    <Content Include="assets\scss\_bradcam.scss" />
+    <Content Include="assets\scss\_color.scss" />
+    <Content Include="assets\scss\_common.scss" />
+    <Content Include="assets\scss\_contact.scss" />
+    <Content Include="assets\scss\_customer.scss" />
+    <Content Include="assets\scss\_dining.scss" />
+    <Content Include="assets\scss\_elements.scss" />
+    <Content Include="assets\scss\_extend.scss" />
+    <Content Include="assets\scss\_footer.scss" />
+    <Content Include="assets\scss\_gallery.scss" />
+    <Content Include="assets\scss\_h1-hero.scss" />
+    <Content Include="assets\scss\_headerMenu.scss" />
+    <Content Include="assets\scss\_mixins.scss" />
+    <Content Include="assets\scss\_overlay.scss" />
+    <Content Include="assets\scss\_reset.scss" />
+    <Content Include="assets\scss\_room.scss" />
+    <Content Include="assets\scss\_testimonial.scss" />
+    <Content Include="assets\scss\_variables.scss" />
+    <Content Include="css\theme-rtl.css.map" />
+    <Content Include="css\theme-rtl.min.css.map" />
+    <Content Include="css\theme.css.map" />
+    <Content Include="css\theme.min.css.map" />
+    <Content Include="js\theme.js.map" />
+    <Content Include="js\theme.min.js.map" />
+    <Content Include="assets\scss\_button.scss" />
+    <None Include="packages.config" />
+    <Content Include="poppins\poppins-v5-latin-700.woff2" />
+    <Content Include="poppins\poppins-v5-latin-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50252</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44359/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
