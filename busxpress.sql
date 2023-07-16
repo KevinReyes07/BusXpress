@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.2
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-07-2023 a las 20:06:04
--- Versión del servidor: 10.1.34-MariaDB
--- Versión de PHP: 5.6.37
+-- Tiempo de generación: 16-07-2023 a las 20:34:02
+-- Versión del servidor: 10.4.28-MariaDB
+-- Versión de PHP: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -21,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `busxpress`
 --
+CREATE DATABASE IF NOT EXISTS `busxpress` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+USE `busxpress`;
 
 -- --------------------------------------------------------
 
@@ -31,12 +32,12 @@ SET time_zone = "+00:00";
 CREATE TABLE `buses` (
   `ID_Bus` int(11) NOT NULL,
   `ID_Driver` int(25) NOT NULL,
-  `Terminal_From` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
-  `Terminal_To` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
-  `ID_Status` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
+  `Terminal_From` varchar(10) NOT NULL,
+  `Terminal_To` varchar(10) NOT NULL,
+  `ID_Status` varchar(10) NOT NULL,
   `Date` date NOT NULL,
-  `Departure_D` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
-  `Return_D` varchar(20) COLLATE utf8_spanish_ci NOT NULL
+  `Departure_D` varchar(20) NOT NULL,
+  `Return_D` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
@@ -47,9 +48,9 @@ CREATE TABLE `buses` (
 
 CREATE TABLE `g_terminal` (
   `ID_Terminal` int(11) NOT NULL,
-  `Name` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  `Name` varchar(50) NOT NULL,
   `ID_State` int(11) NOT NULL,
-  `ID_User` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
+  `ID_User` varchar(20) NOT NULL,
   `Date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -73,10 +74,10 @@ INSERT INTO `g_terminal` (`ID_Terminal`, `Name`, `ID_State`, `ID_User`, `Date`) 
 
 CREATE TABLE `payment` (
   `ID_Card` int(11) NOT NULL,
-  `validcard` varchar(25) COLLATE utf8_spanish_ci NOT NULL,
-  `expirationcard` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
+  `validcard` varchar(25) NOT NULL,
+  `expirationcard` varchar(10) NOT NULL,
   `cvc` int(5) NOT NULL,
-  `cardowner` varchar(30) COLLATE utf8_spanish_ci NOT NULL
+  `cardowner` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
@@ -87,14 +88,14 @@ CREATE TABLE `payment` (
 
 CREATE TABLE `ticket` (
   `ID_Ticket` int(11) NOT NULL,
-  `Status` varchar(1) COLLATE utf8_spanish_ci NOT NULL,
+  `Status` varchar(1) NOT NULL,
   `Number_of_Passengers` int(11) NOT NULL,
   `Value` decimal(8,2) NOT NULL,
   `Terminal_from` int(5) NOT NULL,
   `Terminal_to` int(5) NOT NULL,
   `Departure_D` date NOT NULL,
   `Return_D` date NOT NULL,
-  `ID_User` varchar(20) COLLATE utf8_spanish_ci NOT NULL
+  `ID_User` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
@@ -102,16 +103,31 @@ CREATE TABLE `ticket` (
 --
 
 INSERT INTO `ticket` (`ID_Ticket`, `Status`, `Number_of_Passengers`, `Value`, `Terminal_from`, `Terminal_to`, `Departure_D`, `Return_D`, `ID_User`) VALUES
-(29, 'a', 2, '0.00', 2, 5, '2023-07-14', '2023-07-19', '1'),
-(30, 'a', 5, '0.00', 1, 4, '2023-07-15', '2023-07-19', '1'),
-(31, 'a', 5, '0.00', 3, 1, '2023-08-03', '2023-07-12', '1'),
-(32, 'a', 5, '0.00', 6, 4, '2023-07-06', '2023-07-20', '3'),
-(33, 'a', 1, '0.00', 2, 4, '2023-07-15', '2023-07-18', '1'),
-(34, 'a', 1, '0.00', 1, 4, '2023-07-21', '2023-07-24', '4'),
-(35, 'a', 1, '0.00', 2, 4, '2023-07-12', '2023-07-21', '1'),
-(36, 'a', 1, '0.00', 1, 3, '2023-07-15', '2023-07-19', '1'),
-(37, 'a', 3, '0.00', 2, 4, '2023-07-21', '2023-07-28', '1'),
-(38, 'a', 1, '0.00', 2, 4, '2023-07-15', '2023-07-22', '1');
+(29, 'a', 2, 0.00, 2, 5, '2023-07-14', '2023-07-19', '1'),
+(30, 'a', 5, 0.00, 1, 4, '2023-07-15', '2023-07-19', '1'),
+(31, 'a', 5, 0.00, 3, 1, '2023-08-03', '2023-07-12', '1'),
+(32, 'a', 5, 0.00, 6, 4, '2023-07-06', '2023-07-20', '3'),
+(33, 'a', 1, 0.00, 2, 4, '2023-07-15', '2023-07-18', '1'),
+(34, 'a', 1, 0.00, 1, 4, '2023-07-21', '2023-07-24', '4'),
+(35, 'a', 1, 0.00, 2, 4, '2023-07-12', '2023-07-21', '1'),
+(36, 'a', 1, 0.00, 1, 3, '2023-07-15', '2023-07-19', '1'),
+(37, 'a', 3, 0.00, 2, 4, '2023-07-21', '2023-07-28', '1'),
+(38, 'a', 1, 0.00, 2, 4, '2023-07-15', '2023-07-22', '1');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `travel`
+--
+
+CREATE TABLE `travel` (
+  `travel_ID` int(11) NOT NULL,
+  `destiny` varchar(30) NOT NULL,
+  `start point` varchar(30) NOT NULL,
+  `departure date` date NOT NULL,
+  `arrival date` date NOT NULL,
+  `driver` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
 
@@ -121,13 +137,13 @@ INSERT INTO `ticket` (`ID_Ticket`, `Status`, `Number_of_Passengers`, `Value`, `T
 
 CREATE TABLE `users` (
   `User_ID` int(10) NOT NULL,
-  `First_Names` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
-  `Last_Names` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
-  `ID_Gender` varchar(1) COLLATE utf8_spanish_ci NOT NULL,
-  `Username` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
-  `Email` varchar(200) COLLATE utf8_spanish_ci NOT NULL,
-  `Password` varchar(250) COLLATE utf8_spanish_ci NOT NULL,
-  `Role` varchar(50) COLLATE utf8_spanish_ci NOT NULL
+  `First_Names` varchar(50) NOT NULL,
+  `Last_Names` varchar(50) NOT NULL,
+  `ID_Gender` varchar(1) NOT NULL,
+  `Username` varchar(50) NOT NULL,
+  `Email` varchar(200) NOT NULL,
+  `Password` varchar(250) NOT NULL,
+  `Role` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
@@ -147,9 +163,9 @@ INSERT INTO `users` (`User_ID`, `First_Names`, `Last_Names`, `ID_Gender`, `Usern
 
 CREATE TABLE `u_role` (
   `ID_Role` int(11) NOT NULL,
-  `Name` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
-  `Description` varchar(150) COLLATE utf8_spanish_ci NOT NULL,
-  `ID_User` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
+  `Name` varchar(50) NOT NULL,
+  `Description` varchar(150) NOT NULL,
+  `ID_User` varchar(20) NOT NULL,
   `Date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -191,6 +207,12 @@ ALTER TABLE `ticket`
   ADD PRIMARY KEY (`ID_Ticket`);
 
 --
+-- Indices de la tabla `travel`
+--
+ALTER TABLE `travel`
+  ADD PRIMARY KEY (`travel_ID`);
+
+--
 -- Indices de la tabla `users`
 --
 ALTER TABLE `users`
@@ -229,6 +251,12 @@ ALTER TABLE `payment`
 --
 ALTER TABLE `ticket`
   MODIFY `ID_Ticket` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+
+--
+-- AUTO_INCREMENT de la tabla `travel`
+--
+ALTER TABLE `travel`
+  MODIFY `travel_ID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `users`
