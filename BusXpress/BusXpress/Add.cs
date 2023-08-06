@@ -1,52 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.NetworkInformation;
 using System.Web;
 
 namespace BusXpress
 {
-    public class Add
+    public class add
     {
         public int Id { get; set; }
-        public string FirstNames { get; set; }
         public string Username { get; set; }
-        public string Destiny { get; set; }
-        public string Location { get; set; }
-        public string Driver { get; set; }
-        public string Date { get; set; }
-        public string Status { get; set; }
-        public string Value { get; set; }
-        public Add() { }
+        public string Email { get; set; }
+        public string Bus { get; set; }
+        public string Passengers { get; set; }
+        public add() { }
 
-        public Add(string tFirstName, string tUsername, string tDestiny, string tLocation, string tDriver, string tDate, string tStatus, string tValue, int TId)
+        public add(string pUsername, string pEmail, string pPrecio, string pBus, string pPassengers, int PId)
 
         {
-            this.Id = TId;
-            this.FirstNames = tFirstName;
-            this.Username = tUsername;
-            this.Destiny = tDestiny;
-            this.Location = tLocation;
-            this.Driver = tDriver;
-            this.Date = tDate;
-            this.Status = tStatus;
-            this.Value = tValue;
+            this.Id = PId;
+            this.Username = pUsername;
+            this.Email = pEmail;
+            this.Bus = pBus;
+            this.Passengers = pPassengers;
         }
     }
 
-    public class AddTicket 
-    { 
-        public string ID_Ticket { get; set; }
-        public string Full_Name { get; set; }
-        public string Birthdate { get; set;}
-        public string Passport { get; set; }
-        public DateTime Passport_Expiration_Date { get; set; }
-        public string Due_Date { get; set; }
-        public string Email { get; set; }
-        public string Price { get; set; }
-        public int Phone { get; set;}
-        public int ID_User { get; set; }
-        public int Date { get; set; }
 
+    public class add_driver
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Bus { get; set; }
+        public string Departure { get; set; }
+        public string Destiny { get; set; }
+        public add_driver() { }
+
+        public add_driver(int dID, string dNAME, string dBUS, string dDEPARTURE, string dDESTINY)
+        {
+            ID = dID;
+            Name = dNAME;
+            Bus = dBUS;
+            Departure = dDEPARTURE;
+            Destiny = dDESTINY;
+
+        }
     }
+
+    public class Ticket
+    {
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+
+        public Ticket(string name,decimal price)
+        {
+            Name = name;
+            Price = price;
+        }
+    }
+
+
 }

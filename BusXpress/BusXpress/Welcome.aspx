@@ -23,6 +23,8 @@
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <link rel="icon" type="image/x-icon" href="images/Bus.png" />
    </head>
 
    <body>
@@ -82,6 +84,7 @@
                         <%--***************************************--%>
 
                         <div class="col-xl-2 col-lg-2">
+                           
                             <!-- header-btn -->
                             <div class="header-btn">
                                 <a href="/SignUp.aspx"  class="btn btn1 d-none d-lg-block ">Sign Up</a>
@@ -103,6 +106,7 @@
                 </div>
             </div>
        </div>
+
         <!-- Header End -->
     </header>
     <main>
@@ -213,10 +217,10 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                               <a href="/SignUp.aspx"><img src="assets/img/El Salvador.jpeg" alt=""></a>
+                               <a href="/BusesWelcome.aspx"><img src="assets/img/El Salvador.jpeg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="/SignUp.aspx">El Salvador</a></h3>
+                                <h3><a href="/BusesWelcome.aspx">El Salvador</a></h3>
                                 <div class="per-night">
                                     <span><u></u><span> Explore </span></span>
                                 </div>
@@ -227,10 +231,10 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                               <a href="/SignUp.aspx"><img src="assets/img/Guatemala.jpg" alt=""></a>
+                               <a href="/BusesWelcome.aspx"><img src="assets/img/Guatemala.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="/SignUp.aspx">Guatemala</a></h3>
+                                <h3><a href="/BusesWelcome.aspx">Guatemala</a></h3>
                                 <div class="per-night">
                                     <span><u></u><span> Explore </span></span>
                                 </div>
@@ -241,10 +245,10 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                               <a href="/SignUp.aspx"> <img src="assets/img/Costa Rica.png" alt=""></a>
+                               <a href="/BusesWelcome.aspx"> <img src="assets/img/Costa Rica.png" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="/SignUp.aspx">Costa Rica</a></h3>
+                                <h3><a href="/BusesWelcome.aspx">Costa Rica</a></h3>
                                 <div class="per-night">
                                     <span><u></u><span> Explore </span></span>
                                 </div>
@@ -255,10 +259,10 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                                <a href="/SignUp.aspx"><img src="assets/img/Nicaragua.jpg" alt=""></a>
+                                <a href="/BusesWelcome.aspx"><img src="assets/img/Nicaragua.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="/SignUp.aspx">Nicaragua</a></h3>
+                                <h3><a href="/BusesWelcome.aspx">Nicaragua</a></h3>
                                 <div class="per-night">
                                     <span><u></u> <span> Explore </span></span>
                                 </div>
@@ -269,10 +273,10 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                                <a href="/SignUp.aspx"><img src="assets/img/Honduras.jpg" alt=""></a>
+                                <a href="/BusesWelcome.aspx"><img src="assets/img/Honduras.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="/SignUp.aspx">Honduras</a></h3>
+                                <h3><a href="/BusesWelcome.aspx">Honduras</a></h3>
                                 <div class="per-night">
                                     <span><u></u><span> Explore </span></span>
                                 </div>
@@ -283,10 +287,10 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                               <a href="/SignUp.aspx"> <img src="assets/img/Panama.png" alt=""></a>
+                               <a href="/BusesWelcome.aspx"> <img src="assets/img/Panama.png" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="/SignUp.aspx">Panama</a></h3>
+                                <h3><a href="/BusesWelcome.aspx">Panama</a></h3>
                                 <div class="per-night">
                                     <span><u></u><span> Explore </span></span>
                                 </div>

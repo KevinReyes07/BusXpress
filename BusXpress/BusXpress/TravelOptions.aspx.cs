@@ -10,34 +10,62 @@ using System.Web.UI.WebControls;
 using Twilio;
 using Twilio.Types;
 using Twilio.Rest.Api.V2010.Account;
-
+using System.Configuration;
+using System.Data;
 
 namespace BusXpress
 {
     public partial class TravelOptions : System.Web.UI.Page
     {
+        List<Ticket> listaTickets;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                ddlStartingPoint.SelectedIndex = 0;
+                MostrarPrecioSeleccionado();
+                
+            }
+        }
 
+        protected void ddlStartingPoint_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MostrarPrecioSeleccionado();
+        }
+
+        protected void txtPassengers_TextChanged(object sender, EventArgs e)
+        {
+            MostrarPrecioSeleccionado();
+        }
+       
+        private void MostrarPrecioSeleccionado()
+        {
+            if (decimal.TryParse(ddlStartingPoint.SelectedValue, out decimal precioBase) && int.TryParse(txtPassengers.Text, out int CantidadPersonas))
+            {
+                decimal Total = precioBase * CantidadPersonas;
+                SelectedTicket.Text = "Total price for " + CantidadPersonas + " persons is: $" + Total.ToString("N2");
+                
+            }
         }
 
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             string startingPoint = ddlStartingPoint.SelectedValue;
-            string destination = ddlDestination.SelectedValue;
+            //string destination = ddlDestination.SelectedValue;
             string birthday = txtBirthday.Text;
             string dueDate = txtDueDate.Text;
             int passengers = int.Parse(txtPassengers.Text);
             string email = userEmail.Text;
             string phone = userPhone.Text;
 
+            
             // Use the retrieved values as needed
             // ...
             MySqlConnection connection = new MySqlConnection("Server=127.0.0.1; database=busxpress; Uid=root; pwd=info2023;");
 
             var selectQuery = "SELECT User_ID from users WHERE Email=@Email";
-            var insertQuery = "INSERT INTO ticket (status, Number_of_Passengers, Terminal_from, Terminal_to, Departure_D, Return_D ,ID_User) VALUES (@Value1, @Value2, @Value3, @Value4, @Value5, @Value6, @Value7)"; // Modify with your table and column names
+            var insertQuery = "INSERT INTO ticket (status, Number_of_Passengers, Terminal_from, Departure_D, Return_D ,ID_User) VALUES (@Value1, @Value2, @Value3, @Value4, @Value5, @Value6)"; // Modify with your table and column names
 
             MySqlCommand selectCommand = new MySqlCommand(selectQuery, connection);
             selectCommand.Parameters.AddWithValue("@Email", email);
@@ -46,10 +74,10 @@ namespace BusXpress
             insertCommand.Parameters.AddWithValue("@Value1", "activo"); // Modify with your desired values
             insertCommand.Parameters.AddWithValue("@Value2", + passengers); // Placeholder for passengers
             insertCommand.Parameters.AddWithValue("@Value3", startingPoint); // placeholder From
-            insertCommand.Parameters.AddWithValue("@Value4", destination); // placeholder To
-            insertCommand.Parameters.AddWithValue("@Value5", birthday); // placeholder for to go
-            insertCommand.Parameters.AddWithValue("@Value6", dueDate); // Placeholder for return
-            insertCommand.Parameters.AddWithValue("@Value7", 0); // Placeholder for userId
+           /* insertCommand.Parameters.AddWithValue("@Value4", destination);*/ // placeholder To
+            insertCommand.Parameters.AddWithValue("@Value4", birthday); // placeholder for to go
+            insertCommand.Parameters.AddWithValue("@Value5", dueDate); // Placeholder for return
+            insertCommand.Parameters.AddWithValue("@Value6", 0); // Placeholder for userId
 
             connection.Open();
 
@@ -62,7 +90,7 @@ namespace BusXpress
                     userId = reader.GetInt32("User_ID");
                     reader.Close();
 
-                    insertCommand.Parameters["@Value7"].Value = userId;
+                    insertCommand.Parameters["@Value6"].Value = userId;
                     int rowsAffected = insertCommand.ExecuteNonQuery();
 
                     if (rowsAffected > 0)
@@ -74,7 +102,7 @@ namespace BusXpress
                         //string twilioPhoneNumber = "+14174907808";
 
                         string accountSid = "AC558a125e5ae48af0c562234e08b786c9";
-                        string authToken = "dc1f37f320d3061144425daebd147cf0";
+                        string authToken = "126cb57aa4c9603a909aadd19ed24fdf";
                         string twilioPhoneNumber = "+15416127926";
 
                         string recipientPhoneNumber = "+503" + phone;
@@ -110,9 +138,16 @@ namespace BusXpress
                     // ...
                 }
             }
+
             
             connection.Close();
             Response.Redirect("Payment.aspx");
+        }
+
+        protected void Paypal_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Payment.aspx");
+
         }
 
 
@@ -129,6 +164,13 @@ namespace BusXpress
         protected void LogOut_Ticket_Click(object sender, EventArgs e)
         {
             Response.Redirect("Welcome.aspx");
+        }
+
+
+        protected void ddlDestination_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
         }
     }
 }

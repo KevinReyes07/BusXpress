@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Payment.aspx.cs" Inherits="BusXpress.Payment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Payment.aspx.cs"  Async="true" Inherits="BusXpress.Payment" %>
 
 <!DOCTYPE html>
 
@@ -134,7 +134,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <%--<button class="btn btn-warning btn-lg btn-block">Process your Payment</button>--%>
-                            <asp:Button ID="PayConfirm" class="btn btn-warning btn-lg btn-block" runat="server" Text="Process your Payment" OnClick="PayConfirm_Click" />
+                            <asp:Button ID="PayConfirm" class="btn btn-warning btn-lg btn-block" runat="server" Text="Process your Payment" OnClick="Paypal_Click" />
                         </div>
                     </div>
                 </div>

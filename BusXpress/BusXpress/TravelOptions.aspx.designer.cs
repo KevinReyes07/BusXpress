@@ -60,15 +60,6 @@ namespace BusXpress
         protected global::System.Web.UI.WebControls.DropDownList ddlStartingPoint;
 
         /// <summary>
-        /// Control ddlDestination.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlDestination;
-
-        /// <summary>
         /// Control txtBirthday.
         /// </summary>
         /// <remarks>
@@ -112,6 +103,24 @@ namespace BusXpress
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox userPhone;
+
+        /// <summary>
+        /// Control SelectedTicket.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SelectedTicket;
+
+        /// <summary>
+        /// Control Paypal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Paypal;
 
         /// <summary>
         /// Control btnSubmit.

@@ -37,6 +37,14 @@ namespace BusXpress
             return retorno;
         }
 
+        public static int ADD(add pAlumno)
+        {
+            int retorno = 0;
+            MySqlCommand comado = new MySqlCommand(string.Format("Insert into admin (admin_ID, Username, Email, Bus, Passengers) values('{0}','{1}','{2}','{3}','{4}')", pAlumno.Id, pAlumno.Username, pAlumno.Email, pAlumno.Bus, pAlumno.Passengers), datos.ObtenerConexion());
+            retorno = comado.ExecuteNonQuery();
+            return retorno;
+        }
+
         public static int Delete(int pId)
         {
             int retorno = 0;
@@ -49,11 +57,47 @@ namespace BusXpress
             return retorno;
         }
 
+        public static int Eliminar(int pId)
+        {
+            int retorno = 0;
+            MySqlConnection conexion = datos.ObtenerConexion();
+            MySqlCommand comando = new MySqlCommand(string.Format("Delete From admin where admin_ID={0}", pId), conexion);
+
+            retorno = comando.ExecuteNonQuery();
+            conexion.Close();
+
+            return retorno;
+        }
         public static int AddTicket(string To, string From, string Passenger)
         {
             int retorno = 0;
             MySqlCommand comando = new MySqlCommand(string.Format("Insert into ticket (From,To,P_option) vaues ('{0}','{1}','{2}')", datos.ObtenerConexion()));
             retorno = comando.ExecuteNonQuery();
+
+            return retorno;
+        }
+        //----------------------------
+        //          DRIVERS
+        //----------------------------
+
+
+
+        public static int ADDDRIVER(add_driver dAlumno)
+        {
+            int retorno = 0;
+            MySqlCommand comado = new MySqlCommand(string.Format("Insert into drivers (ID_driver, Name, Bus, Departure, Destiny) values('{0}','{1}','{2}','{3}','{4}')", dAlumno.ID, dAlumno.Name, dAlumno.Bus, dAlumno.Departure, dAlumno.Destiny), datos.ObtenerConexion());
+            retorno = comado.ExecuteNonQuery();
+            return retorno;
+        }
+
+        public static int DELETEDRIVER(int pId)
+        {
+            int retorno = 0;
+            MySqlConnection conexion = datos.ObtenerConexion();
+            MySqlCommand comando = new MySqlCommand(string.Format("Delete From drivers where ID_driver={0}", pId), conexion);
+
+            retorno = comando.ExecuteNonQuery();
+            conexion.Close();
 
             return retorno;
         }

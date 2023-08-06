@@ -77,6 +77,10 @@
         <!-- ===============================================-->
         <!--    Main Content-->
         <!-- ===============================================-->
+        <%--<asp:ScriptManager ID="ScriptManager2" runat="server"></asp:ScriptManager>
+        <div>
+            <asp:Button ID="btnShowAlertAndRedirect" runat="server" Text="Show Alert and Redirect" OnClick="btnShowAlertAndRedirect_Click" />
+        </div>--%>
         <main class="main" id="top">
             <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
                 <div class="container">
@@ -133,7 +137,7 @@
                     </div>
             </nav>
             <section class="mt-7 py-0">
-                 <div class="bg-holder w-50 bg-right d-none d-lg-block" style="background-image:url(images/img/busito1.png);"></div>
+                <div class="bg-holder w-50 bg-right d-none d-lg-block" style="background-image: url(images/img/busito1.png);"></div>
                 <!--/.bg-holder-->
                 <div class="container">
                     <div class="row">
@@ -148,26 +152,26 @@
                                             <div class="row g-4 mt-5">
                                                 <div class="col-sm-6 col-md-6 col-xl-5">
                                                     <div class="input-group-icon">
-                                             <label class="form-label visually-hidden" for="ddlStartingPoint">Starting Point:</label>
-                                                  <asp:DropDownList class="form-select form-voyage-select input-box" ID="ddlStartingPoint" runat="server">
-                                                    
-                                                      <asp:ListItem Text="From" Value="From" />
-                                                      <asp:ListItem Text="San Salvador Terminal, El Salvador" Value="1" />
-                                                      <asp:ListItem Text="Guatemala City Terminal, Guatemala" Value="2" />
-                                                      <asp:ListItem Text="Tegucigalpa Terminal, Honduras" Value="3" />
-                                                      <asp:ListItem Text="Managua Terminal, Nicaragua" Value="4" />
-                                                      <asp:ListItem Text="San Jose Terminal, Costa Rica" Value="5" />
-                                                      <asp:ListItem Text="Panama City Terminal, Panama " Value="6" />
+                                                        <label class="form-label visually-hidden" for="ddlStartingPoint">Starting Point:</label>
+                                                        <asp:DropDownList class="form-select form-voyage-select input-box" ID="ddlStartingPoint" runat="server" OnSelectedIndexChanged="ddlStartingPoint_SelectedIndexChanged" AutoPostBack="true">
 
-                                                  </asp:DropDownList>
-                                                  <span class="nav-link-icon text-800 fs--1 input-box-icon">
-                                                      <i class="fas fa-user"></i>
-                                                  </span>
-                                              </div>
-                                          </div>
+                                                            <asp:ListItem Text="From" Value="0" />
+                                                            <asp:ListItem Text="San Salvador Terminal, El Salvador to San Jose Terminal, Costa Rica" Value="75" />
+                                                            <asp:ListItem Text="Guatemala City Terminal, Guatemala to Managua Terminal, Nicaragua" Value="65" />
+                                                            <asp:ListItem Text="Panama City Terminal, Panama to Tegucigalpa city, Honduras" Value="70" />
+                                                            <asp:ListItem Text="Guatemala City Terminal, Guatemala to Panama City Terminal" Value="85" />
+                                                            <asp:ListItem Text="Tegucigalpa city, Honduras to San Jose Terminal, Costa Rica" Value="60" />
+                                                            <asp:ListItem Text="Panama City Terminal, Panama to  San Salvador Terminal, El Salvador" Value="95" />
+
+                                                        </asp:DropDownList>
+                                                        <span class="nav-link-icon text-800 fs--1 input-box-icon">
+                                                            <i class="fas fa-user"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                                 <div class="col-sm-6 col-md-6 col-xl-5">
                                                     <div class="input-group-icon">
-                                                        <label class="form-label visually-hidden" for="ddlDestination">Destination:</label>
+                                                        <%--<label class="form-label visually-hidden" for="ddlDestination">Destination:</label>
                                                         <asp:DropDownList class="form-select form-voyage-select input-box" ID="ddlDestination" runat="server">
 
                                                             <asp:ListItem Text="To" Value="to" />
@@ -177,25 +181,25 @@
                                                             <asp:ListItem Text="Managua Terminal, Nicaragua" Value="4" />
                                                             <asp:ListItem Text="San Jose Terminal, Costa Rica" Value="5" />
                                                             <asp:ListItem Text="Panama City Terminal, Panama" Value="6" />
-                                                        </asp:DropDownList>
+                                                        </asp:DropDownList>--%>
                                                         <span class="nav-link-icon text-800 fs--1 input-box-icon">
                                                             <i class="fas fa-user"></i>
                                                         </span>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-xl-5">
-                                        <div class="input-group-icon">
-                                            <label for="txtBirthday"></label>
-                                            <asp:TextBox ID="txtBirthday" class="form-control input-box form-voyage-control" runat="server" type="date"></asp:TextBox>
-                                            <span class="nav-link-icon text-800 fs--1 input-box-icon">
-                                                <i class="fas fa-calendar"></i>
-                                            </span>
-                                        </div>
-                                    </div>
+                                                    <div class="input-group-icon">
+                                                        <label for="txtBirthday"></label>
+                                                        <asp:TextBox ID="txtBirthday" class="form-control input-box form-voyage-control" runat="server" type="date" value="2023-07-28" min="2023-07-28" max="2023-10-28"></asp:TextBox>
+                                                        <span class="nav-link-icon text-800 fs--1 input-box-icon">
+                                                            <i class="fas fa-calendar"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                                 <div class="col-sm-6 col-md-6 col-xl-5">
                                                     <div class="input-group-icon">
                                                         <label for="txtDueDate"></label>
-                                                        <asp:TextBox ID="txtDueDate" class="form-control input-box form-voyage-control" runat="server" type="date"></asp:TextBox>
+                                                        <asp:TextBox ID="txtDueDate" class="form-control input-box form-voyage-control" runat="server" type="date" value="2023-07-28" min="2023-07-28" max="2023-10-28"></asp:TextBox>
                                                         <span class="nav-link-icon text-800 fs--1 input-box-icon">
                                                             <i class="fas fa-calendar"></i>
                                                         </span>
@@ -204,7 +208,7 @@
                                                 <div class="col-sm-6 col-md-6 col-xl-5">
                                                     <div class="input-group-icon">
                                                         <label class="form-label visually-hidden" for="txtPassengers">Number of Passengers:</label>
-                                                        <asp:TextBox ID="txtPassengers" class="form-control input-box form-voyage-control" runat="server" type="text" placeholder="Number of Passengers" onkeypress="javascript:return solonumeros(event)" minlength="1" MaxLength="2"></asp:TextBox>
+                                                        <asp:TextBox ID="txtPassengers" class="form-control input-box form-voyage-control" runat="server" OnTextChanged="txtPassengers_TextChanged" type="text" placeholder="Number of Passengers" onkeypress="javascript:return solonumeros(event)" minlength="1" MaxLength="2"></asp:TextBox>
                                                         <span class="nav-link-icon text-800 fs--1 input-box-icon">
                                                             <i class="fas fa-map-marker-alt"></i>
                                                         </span>
@@ -228,10 +232,22 @@
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <h1>Select your Seat</h1>
-<div class="containerbus">
-  <!-- Squared ONE -->
-  <div class="autobus input-group-icon">
+                                                <div class="Ticket-price">
+                                                    <asp:Label ID="SelectedTicket" runat="server" Text="Ticket Price:"></asp:Label>
+
+                                                </div>
+                                                <div>
+                                                    <!-- Replace "test" with your own sandbox Business account app client ID -->
+                                                    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+                                                    <!-- Set up a container element for the button -->
+                                                    <div id="paypal-button-container"></div>
+                                                    <asp:Button ID="Paypal" runat="server" Text="Paypal" OnClick="Paypal_Click" />
+                                                    
+                                                </div>
+                                                <%--<h1>Select your Seat</h1>--%>
+                                                <div class="containerbus">
+                                                    <!-- Squared ONE -->
+                                                    <%--<div class="autobus input-group-icon">
 
     <div class="fila">
       <div class="seccion">
@@ -371,15 +387,16 @@
       </div>
     </div>
   </div>
-</div>
-                                                <div class="col-12 col-xl-10 col-lg-12 d-grid mt-6">
-                                                    <asp:Button ID="btnSubmit" class="btn btn-secondary" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+</div>--%>
+                                                    <%-- <asp:Label ID="lblDynamicText" runat="server" Text=""></asp:Label> --%>
+                                                    <div class="col-12 col-xl-10 col-lg-12 d-grid mt-6">
+                                                        <asp:Button ID="btnSubmit" class="btn btn-secondary" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                                                    </div>
+
                                                 </div>
 
+
                                             </div>
-
-
-                                        </div>
                                 </nav>
                             </div>
                         </div>
@@ -392,7 +409,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6 px-0">
-                           <img class="img-fluid order-md-0 mb-4 h-100 fit-cover" src="images/img/busito 2.png" alt="..."/>
+                            <img class="img-fluid order-md-0 mb-4 h-100 fit-cover" src="images/img/busito 2.png" alt="..." />
                         </div>
                         <div class="col-lg-6 px-0 bg-primary-gradient bg-offcanvas-right">
                             <div class="mx-6 mx-xl-8 my-8">

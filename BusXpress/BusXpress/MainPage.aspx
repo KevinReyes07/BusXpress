@@ -59,7 +59,8 @@
                                     <ul id="navigation">                                                                                                                                     
                                         <li><a href="MainPage.aspx">Home</a></li>
                                         <li><a href="/About.aspx">About</a></li>
-                                        <li><a href="/TravelOptions.aspx">Tickets</a></li>
+                                       <%-- <li><a href="/TravelOptions.aspx">Tickets</a></li>--%>
+                                        <li><a href="/Buses.aspx">Buses</a></li>
                                         
                                         <!--li><a href="blog.html">Blog</a>
                                             <ul class="submenu">

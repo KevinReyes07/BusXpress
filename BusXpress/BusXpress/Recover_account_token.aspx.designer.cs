@@ -11,25 +11,34 @@ namespace BusXpress
 {
 
 
-    public partial class Driver
+    public partial class Recover_account_token
     {
 
         /// <summary>
-        /// Control form1.
+        /// Control txttoken.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox txttoken;
 
         /// <summary>
-        /// Control DriverLogOut.
+        /// Control token_Click.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DriverLogOut;
+        protected global::System.Web.UI.WebControls.Button token_Click;
+
+        /// <summary>
+        /// Control alertas.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal alertas;
     }
 }

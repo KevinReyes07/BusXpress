@@ -24,12 +24,21 @@ namespace BusXpress
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control AdminLogOut.
+        /// Control NameUser.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AdminLogOut;
+        protected global::System.Web.UI.WebControls.Literal NameUser;
+
+        /// <summary>
+        /// Control BusesAvaible.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal BusesAvaible;
     }
 }

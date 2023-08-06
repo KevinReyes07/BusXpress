@@ -24,6 +24,7 @@
                         <figure>
                             <img src="images/image5.jpg" alt="sing up image"></figure>
                         <a href="/SignUp.aspx" class="signup-image-link">Create an account to access BusXpress</a>
+                         <a href="/RecoverAccount.aspx" class="signup-image-link">Forgot password?</a>
                         <%--<asp:Button ID="LoginToInicio" href="#" runat="server" Text="Create an account" BackColor="White" BorderColor="White" BorderStyle="None" ForeColor="Black" OnClick="LoginToInicio_Click"  />--%>
                     </div>
                     <div class="signin-form">
@@ -33,12 +34,12 @@
                             <div class="form-group">
                                 <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <%--<input type="text" name="your_name" id="your_name" placeholder="Your Name" />--%>
-                                <asp:TextBox type="text" ID="LoginUser" runat="server" placeholder="Your Username"></asp:TextBox>
+                                <asp:TextBox type="text" ID="LoginUser" runat="server" placeholder="Username"></asp:TextBox>
                             </div>
                             <div class="form-group">
                                 <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
                                 <%-- <input type="password" name="your_pass" id="your_pass" placeholder="Password" />--%>
-                                <asp:TextBox type="password" ID="LoginPass" runat="server" placeholder="Your Password"></asp:TextBox>
+                                <asp:TextBox type="password" ID="LoginPass" runat="server" placeholder="Password"></asp:TextBox>
                             <%--</div>
                             <div class="form-group">
                                 <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-07-2023 a las 20:34:02
+-- Tiempo de generación: 31-07-2023 a las 23:06:06
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -26,6 +26,36 @@ USE `busxpress`;
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `admin`
+--
+
+CREATE TABLE `admin` (
+  `admin_ID` int(11) NOT NULL,
+  `Username` varchar(30) NOT NULL,
+  `Email` varchar(50) NOT NULL,
+  `Bus` varchar(20) NOT NULL,
+  `Passengers` int(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `admin`
+--
+
+INSERT INTO `admin` (`admin_ID`, `Username`, `Email`, `Bus`, `Passengers`) VALUES
+(1, 'mini soto', 'derfkjebkjbe', 'Bus 2', 5),
+(3, 'terminator', 'ernesto', 'Bus 2', 9),
+(4, 'terminator', 'ernesto', 'Bus 2', 9),
+(5, 'terminator', 'ernesto', 'Bus 3', 9),
+(9, 'nani', 'niana', 'Bus 4', -6),
+(10, 'terminato', 'lavacadalech', 'Bus 1', 12),
+(11, 'nani', 'posada', 'Bus 4', 0),
+(12, 'Kanna', 'hue', 'Bus 2', 2),
+(13, 'Raulito uwu', '1', '4', 1),
+(14, 'Raulito', '1', '4', 1);
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `buses`
 --
 
@@ -39,6 +69,27 @@ CREATE TABLE `buses` (
   `Departure_D` varchar(20) NOT NULL,
   `Return_D` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `drivers`
+--
+
+CREATE TABLE `drivers` (
+  `ID_driver` int(2) NOT NULL,
+  `Name` varchar(30) NOT NULL,
+  `Bus` varchar(20) NOT NULL,
+  `Departure` varchar(60) NOT NULL,
+  `Destiny` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `drivers`
+--
+
+INSERT INTO `drivers` (`ID_driver`, `Name`, `Bus`, `Departure`, `Destiny`) VALUES
+(3, 'carlos777', '1', '6', '1');
 
 -- --------------------------------------------------------
 
@@ -79,6 +130,13 @@ CREATE TABLE `payment` (
   `cvc` int(5) NOT NULL,
   `cardowner` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `payment`
+--
+
+INSERT INTO `payment` (`ID_Card`, `validcard`, `expirationcard`, `cvc`, `cardowner`) VALUES
+(1, '634287346823746', '4455', 645, 'mini soto');
 
 -- --------------------------------------------------------
 
@@ -139,21 +197,24 @@ CREATE TABLE `users` (
   `User_ID` int(10) NOT NULL,
   `First_Names` varchar(50) NOT NULL,
   `Last_Names` varchar(50) NOT NULL,
-  `ID_Gender` varchar(1) NOT NULL,
   `Username` varchar(50) NOT NULL,
   `Email` varchar(200) NOT NULL,
   `Password` varchar(250) NOT NULL,
-  `Role` varchar(50) NOT NULL
+  `Role` varchar(50) NOT NULL,
+  `token` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`User_ID`, `First_Names`, `Last_Names`, `ID_Gender`, `Username`, `Email`, `Password`, `Role`) VALUES
-(1, 'Kevin', 'Reyes', '', 'kevin7', 'kevin@gmail.com', 'iEf/23dT54Pcx7r5KDzoQw==', 'Client'),
-(3, 'Kamaron', 'Mejia', '', '123', 'Josemiguel@santacecilia.edu.sv', 'iEf/23dT54Pcx7r5KDzoQw==', ''),
-(4, 'Benito', 'Martinez', '', 'Benedeto@', 'benitomartinez97@gmail.com', 'iEf/23dT54Pcx7r5KDzoQw==', '');
+INSERT INTO `users` (`User_ID`, `First_Names`, `Last_Names`, `Username`, `Email`, `Password`, `Role`, `token`) VALUES
+(1, 'Kevin', 'Reyes', 'kevin7', 'kevin@gmail.com', 'iEf/23dT54Pcx7r5KDzoQw==', 'Admin', ''),
+(3, 'Kamaron', 'Mejia', '123', 'Josemiguel@santacecilia.edu.sv', 'iEf/23dT54Pcx7r5KDzoQw==', '', ''),
+(4, 'Benito', 'Martinez', 'Benedeto@', 'benitomartinez97@gmail.com', 'iEf/23dT54Pcx7r5KDzoQw==', '', ''),
+(6, 'jose', 'alvarez', 'alvarez15', 'jose20160136@gmail.com', '/04ZGE1agxlAykYWM3BsEQ==', '', ''),
+(7, 'Gustavo', 'Caceres', 'Caceres1', 'davidalejandromm951@gmail.com', 'TQlNY9HjpE1mOgdYz1Yfug==', '', ''),
+(9, 'Patricio', 'Reyes', 'patrick', 'jpreyesb79@gmail.com', 'BxpBZK2O4qmQPC2dPUyzPA==', '', '');
 
 -- --------------------------------------------------------
 
@@ -183,10 +244,22 @@ INSERT INTO `u_role` (`ID_Role`, `Name`, `Description`, `ID_User`, `Date`) VALUE
 --
 
 --
+-- Indices de la tabla `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`admin_ID`);
+
+--
 -- Indices de la tabla `buses`
 --
 ALTER TABLE `buses`
   ADD PRIMARY KEY (`ID_Bus`,`ID_Status`);
+
+--
+-- Indices de la tabla `drivers`
+--
+ALTER TABLE `drivers`
+  ADD PRIMARY KEY (`ID_driver`);
 
 --
 -- Indices de la tabla `g_terminal`
@@ -229,10 +302,22 @@ ALTER TABLE `u_role`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `admin_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
 -- AUTO_INCREMENT de la tabla `buses`
 --
 ALTER TABLE `buses`
   MODIFY `ID_Bus` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `drivers`
+--
+ALTER TABLE `drivers`
+  MODIFY `ID_driver` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `g_terminal`
@@ -244,7 +329,7 @@ ALTER TABLE `g_terminal`
 -- AUTO_INCREMENT de la tabla `payment`
 --
 ALTER TABLE `payment`
-  MODIFY `ID_Card` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID_Card` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `ticket`
@@ -262,7 +347,7 @@ ALTER TABLE `travel`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `User_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `User_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `u_role`

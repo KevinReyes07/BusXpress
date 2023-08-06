@@ -7,19 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace BusXpress
 {
-    public partial class Driver : System.Web.UI.Page
+    public partial class AdminTicket : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            try
-            {
-                String user = Session["2"].ToString();
 
-            }
-            catch (Exception ex)
-            {
-                
-            }
         }
     }
 }
