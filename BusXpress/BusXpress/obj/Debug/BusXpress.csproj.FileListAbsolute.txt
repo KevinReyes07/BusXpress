@@ -1,553 +1,105 @@
-C:\Users\PrimeroInfo\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\PrimeroInfo\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\death\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\death\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\death\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\death\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\death\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\PC\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\PC\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\PC\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\Usuario\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\SendGrid.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\SendGrid.pdb
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\SendGrid.xml
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Twilio.dll
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\Laptop\Downloads\BusXpress\BusXpress\bin\Twilio.xml
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\SendGrid.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Twilio.dll
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\SendGrid.pdb
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\SendGrid.xml
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\PC\Desktop\BusXpress\BusXpress\bin\Twilio.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\SendGrid.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Twilio.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\SendGrid.pdb
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\SendGrid.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Twilio.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\David\3D Objects\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\David\3D Objects\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\David\3D Objects\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\David\3D Objects\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\David\3D Objects\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\SendGrid.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Twilio.dll
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\SendGrid.pdb
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\SendGrid.xml
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\Twilio.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\SendGrid.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Twilio.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\SendGrid.pdb
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\SendGrid.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Twilio.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\David\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\David\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\David\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\David\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\David\Desktop\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
-C:\Users\PrimeroInfo\Desktop\BusXpress\BusXpress\bin\MySql.Data.DLL
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\BusXpress.dll.config
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\BusXpress.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\BusXpress.pdb
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\csc.exe
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\csc.exe.config
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\csc.rsp
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\csi.exe
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\csi.exe.config
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\csi.rsp
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Console.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\vbc.exe
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\vbc.rsp
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\SendGrid.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Twilio.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\SendGrid.pdb
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\SendGrid.xml
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Twilio.xml
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.dll
-C:\Users\Alejandro\Documents\GitHub\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.AssemblyReference.cache
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\BusXpress.dll.config
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\BusXpress.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\BusXpress.pdb
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\csc.exe
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\csc.exe.config
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\csc.rsp
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\csi.exe
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\csi.exe.config
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\csi.rsp
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.AppContext.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Console.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Net.Http.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Net.Sockets.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.ValueTuple.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\vbc.exe
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\vbc.exe.config
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\vbc.rsp
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\BouncyCastle.Crypto.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Google.Protobuf.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\K4os.Compression.LZ4.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\K4os.Hash.xxHash.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\MySql.Data.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Newtonsoft.Json.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\SendGrid.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\StarkbankEcdsa.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Buffers.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.IO.Pipelines.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Memory.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Numerics.Vectors.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Twilio.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\ZstdSharp.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\BouncyCastle.Crypto.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Google.Protobuf.pdb
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Google.Protobuf.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\K4os.Compression.LZ4.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\K4os.Hash.xxHash.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\MySql.Data.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Newtonsoft.Json.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\SendGrid.pdb
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\SendGrid.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Buffers.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.IO.Pipelines.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Memory.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Numerics.Vectors.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Twilio.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.csproj.CopyComplete
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\obj\Debug\BusXpress.pdb
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\PayPal.dll
+C:\Users\andre\Documents\PROJECTS\BusXpress\BusXpress\BusXpress\bin\PayPal.xml
