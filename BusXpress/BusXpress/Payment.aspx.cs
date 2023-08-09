@@ -12,6 +12,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace BusXpress
 {
@@ -25,7 +26,7 @@ namespace BusXpress
         protected async void PayConfirm_Click(object sender, EventArgs e)
         {
             string apiUrl = "https://api.sandbox.paypal.com/v1/payments/payment";
-            string accessToken = "A21AAKcW3FFhX3NCsWzeZQfLgEOe001ivjJErHQw-PHimxpzeK3LJjTDxY7kKD3UyxcY7AMkZRHfI7u0ISN_iq5cFNoe0CxKw";
+            string accessToken = await GetOAuthToken();
 
             string jsonRequest = @"{
                 ""intent"": ""sale"",
@@ -52,6 +53,39 @@ namespace BusXpress
             {
                 TransactionIdLabel.Text = "Transaction ID: " + transactionId;
                 TransactionIdLabel.Visible = true;
+            }
+        }
+
+        static async Task<string> GetOAuthToken()
+        {
+            string apiUrl = "https://api-m.sandbox.paypal.com/v1/oauth2/token";
+            string clientId = "AR83lIXVfLLhyWatPu9Q1AHKwp0G5Dx_ycD61hHQjts7d19X-al5lFEbsH8IdHu4rUXZXu8lu3XlbWwv";
+            string clientSecret = "EDohXnU9T2AnSTZ15e-Y20Sf144ylXEUlqPGT5qylwp4K4ERI3iCnyg1JXql9Dck3N2KifUdQmRX5U2l";
+
+            using (HttpClient httpClient = new HttpClient())
+            {
+                string base64Credentials = Convert.ToBase64String(Encoding.UTF8.GetBytes($"{clientId}:{clientSecret}"));
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64Credentials);
+
+                var content = new FormUrlEncodedContent(new[]
+                {
+                    new KeyValuePair<string, string>("grant_type", "client_credentials")
+                });
+
+                HttpResponseMessage response = await httpClient.PostAsync(apiUrl, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    
+                    JObject json = JObject.Parse(responseBody);
+                    string accessToken = json.GetValue("access_token").ToString();
+                    return accessToken;
+                }
+                else
+                {
+                    return("HTTP POST request failed. Status code: " + response.StatusCode);
+                }
             }
         }
 
